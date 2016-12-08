@@ -1,7 +1,8 @@
 # node-json-file
 [![Build Status](https://travis-ci.org/F-happy/node-json-file.svg?branch=master)](https://travis-ci.org/F-happy/node-json-file)
-[![npm](https://img.shields.io/npm/v/node-json-file.svg?style=flat)](https://www.npmjs.com/package/node-json-file)
-[![npm](https://img.shields.io/npm/l/node-json-file.svg?style=flat)](https://www.npmjs.com/package/node-json-file)
+[![npm](https://img.shields.io/npm/v/node-json-file.svg?style=flat-square)](https://www.npmjs.com/package/node-json-file)
+[![npm](https://img.shields.io/npm/l/node-json-file.svg?style=flat-square)](https://www.npmjs.com/package/node-json-file)
+[![npm](https://img.shields.io/npm/dt/node-json-file.svg?style=flat-square)](https://www.npmjs.com/package/node-json-file)
 > This is node runtime json file tool.
 
 ### install：
