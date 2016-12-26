@@ -10,5 +10,8 @@
     "needCDN": true,
     "staticURL": "http://cdn.jonnyf.com/duobao",
     "replaceStr": 120,
-    "sassLib": ["nuts-scss"]
+    "sassLib": ["nuts-scss"],
+    "keys": {
+        "test1": "test1"
+    }
 }

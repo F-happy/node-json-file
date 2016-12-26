@@ -52,6 +52,19 @@ class NodeJson {
     count() {
         return Object.keys(this.json).length;
     }
+
+    find(key, obj = this.json) {
+        let keys = Object.keys(obj);
+        if (keys.indexOf(key) !== -1) {
+            return obj[key];
+        } else {
+            for (let i = 0; i < keys.length; i++) {
+                if (Object.prototype.toString.call(obj[keys[i]]) === '[object Object]') {
+                    return this.find(key, obj[keys[i]]);
+                }
+            }
+        }
+    }
 }
 
 module.exports = (filePath)=> {

@@ -65,3 +65,13 @@ jsonTest.save(`${__dirname}/test2.json`);
 // save original file
 jsonTest.save();
 ```
+
+### find json object
+```javascript
+const jsonTool = require('node-json-file');
+
+let jsonTest = jsonTool(`${__dirname}/test.json`);
+
+jsonTest.find('test1');
+// if not find key, return undefined
+```

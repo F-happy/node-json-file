@@ -11,6 +11,10 @@ if (jsonTest.select('name') !== 'example') {
     return new Error('select error');
 }
 
+if (jsonTest.find('test1') !== 'test1') {
+    return new Error('find error');
+}
+
 if (Object.keys(jsonTest.select()).length !== 12) {
     return new Error('select error');
 }
